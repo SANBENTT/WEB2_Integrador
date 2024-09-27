@@ -1,6 +1,5 @@
 {
-    "rewrites": [
-      { "source": "/verImagenes", "destination": "/verImagenes.html" }
-    ]
-  }
-  
+  "rewrites": [
+    { "source": "/verimagenes", "destination": "/verImagenes.html" }
+  ]
+}
