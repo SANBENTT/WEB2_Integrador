@@ -131,7 +131,7 @@ function setupPagination(totalItems) {
 
 
 function verMasImagenes(objectId) {
-  window.location.href = `/public/verImagenes.html?objectId=${objectId}`;
+  window.location.href = `/public/verimagenes.html?objectId=${objectId}`;
 
 
 }
