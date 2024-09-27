@@ -3,7 +3,7 @@ const URL_OBJETOS = "https://collectionapi.metmuseum.org/public/collection/v1/ob
 const URL_OBJETO = `https://collectionapi.metmuseum.org/public/collection/v1/objects/`;
 const URL_SEARCH_HASIMAGE = `https://collectionapi.metmuseum.org/public/collection/v1/search?q=&hasImages=true`;
 const URL_SEARCH= `https://collectionapi.metmuseum.org/public/collection/v1/search`;
-const URL_TRADUCIR = "/traducir";
+const URL_TRADUCIR = "/api/traducir";
 
 const itemsPerPage = 20; 
 
