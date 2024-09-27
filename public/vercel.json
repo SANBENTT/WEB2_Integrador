@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/verimagenes", "destination": "/verImagenes.html" }
+    { "source": "/verimagenes", "destination": "/verimagenes.html" }
   ]
 }
