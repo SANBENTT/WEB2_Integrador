@@ -230,7 +230,17 @@ document.getElementById("buscar").addEventListener("click", (event) => {
   if (keyword) url.searchParams.set("q", keyword);  
   if (departamento) url.searchParams.set("departmentId", departamento);  
   if (localizacion) url.searchParams.set("geoLocation", localizacion);  
+ 
+  if (!keyword) {
+    alert("Por favor, ingrese una palabra clave para la búsqueda.");
+    return; 
+  }
 
+  
+  if (!departamento && !localizacion) {
+    alert("Debe ingresar al menos un criterio de búsqueda adicional (departamento o localización)");
+    return;
+  }
   // Ejecutar la búsqueda
   fetch(url)
     .then((response) => response.json())
