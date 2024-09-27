@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museo NY</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+
+        <div id="buscador">
+            <form action="" method="post">
+                <div class="input">
+                    <label for="departamento">Departamento</label>
+                    <select name="departamento" id="departamento"></select>
+                </div>
+                <div class="input">
+                    <label for="keyword">Palabra clave</label> 
+                    <input type="text" id="keyword" name="keyword">
+                </div>
+                <div class="input">
+                    <label for="localizacion">Localización</label>
+                    <select name="localizacion" id="localizacion">
+                        <option value="" selected>Seleccione una localización</option>
+                        <option value="China">China</option>
+                        <option value="Nueva York">Nueva York</option>
+                        <option value="France">Francia</option>
+                    </select>
+                </div>
+                <button id="buscar">Buscar</button>
+            </form>
+        </div>
+        <div id="grilla">
+        </div>
+
+        <div id="pagination">
+        </div>
+        
+    </div>
+</body>
+</html>
